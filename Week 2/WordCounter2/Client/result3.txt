@@ -1,0 +1,8 @@
+horse - 2
+mode - 4
+\n - 1
+son - 2
+-123as - 1
+sound - 5
+xyz - 2
+sun - 2

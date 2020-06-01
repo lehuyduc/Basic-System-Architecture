@@ -1,0 +1,22 @@
+- Download Lehuyduc-Hagidoop.rar and extract somewhere. 
+  The .rar file should contain: folder src, TestProgram.java, closePorts.sh 
+
+- “javac TestProgram.java” : this is the auto setup file. 
+
+- “java TestProgram”  : this file compiles .java files in ./src, 
+   and copy them to 3 client folders and 3 server folders. 
+
+- In ./server1, open terminal and “java Server 8081”. Do similar in ./server2 and ./server3 (8082, 8083) 
+
+- “java TestProgram 1” : this will execute some shell commands to show what my code can do. 
+   After this, ./client1 has test1.reduce and test6.reduce, ./client2 has test2.reduce and test4.reduce, ./client3 has test3.reduce and test5.reduce 
+
+- If there’s “Already Binded” error, run “java TestProgram -1” to close existing ports. 
+
+- From a client folder, you can also try running Split/Launch processes yourself. The syntax is: 
+	java Split <filename> <port1> <port2> <port3> … <portN> 
+	java Launch <N> <port1> <port2> … <portN> <filename> 
+
+- Note: file filesample.txt has bene modified to remove all French punctuation and convert them to ascii characters.
+This make the file much easier to read and run because the code doesn't handle Unicode character.
+result_generate_20.txt is the result when we "source ./generate.sh 20"

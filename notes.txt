@@ -1,0 +1,9 @@
+- Thread scheduler
++ Choose process: preemptive, non-preemptive
++ How long: short term vs long term
+
+- Why non-preemptive:
++ Hardware is slow, expensive
++ Few processes
+
+- QUESTION: how to kill zombie process?

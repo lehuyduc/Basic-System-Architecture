@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1584015414 source:c:\users\lehuy\documents\system architecture\code\scheduling\main.c
+	<stdio.h>
+	<stdbool.h>
+	<stdlib.h>
+	<heap.h>
+	<queue.h>
+
+1584006322 c:\users\lehuy\documents\system architecture\code\scheduling\heap.h
+	<data.h>
+
+1584008344 c:\users\lehuy\documents\system architecture\code\scheduling\data.h
+
+1584013295 c:\users\lehuy\documents\system architecture\code\scheduling\queue.h
+	<stdio.h>
+	<stdbool.h>
+	<stdlib.h>
+	<data.h>
+

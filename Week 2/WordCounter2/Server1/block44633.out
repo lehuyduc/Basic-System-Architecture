@@ -1,0 +1,5 @@
+horse - 2
+mode - 1
+son - 1
+sound - 1
+sun - 1

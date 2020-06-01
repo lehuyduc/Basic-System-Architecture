@@ -1,0 +1,6 @@
+sudo kill $(sudo lsof -t -i:8081)
+sudo kill $(sudo lsof -t -i:8082)
+sudo kill $(sudo lsof -t -i:8083)
+sudo kill $(sudo lsof -t -i:8181)
+sudo kill $(sudo lsof -t -i:8182)
+sudo kill $(sudo lsof -t -i:8183)

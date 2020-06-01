@@ -1,0 +1,16 @@
+horse
+sound
+son
+sun
+horse
+mode -123as \n mode
+mode
+sound sound
+son
+sound
+sun
+xyz
+mode
+xyz
+sound
+
